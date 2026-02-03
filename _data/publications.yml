@@ -22,7 +22,6 @@ main:
             journal      = {{IEEE} Trans. Vis. Comput. Graph.},
             year         = {2026},
           }
-      }
     pdf: /_publication/file/curriculum_vitae.pdf
     code: https://github.com/MrGiovanni/ContinualLearning
     
@@ -51,7 +50,6 @@ main:
         journal      = {{IEEE} Trans. Ind. Informatics},
         year         = {2025}
         }
-    }
     pdf: /_publication/file/curriculum_vitae.pdf
     code: https://github.com/MrGiovanni/ContinualLearning
   
@@ -82,7 +80,6 @@ main:
         pages        = {10227--10236},
         year         = {2025},
       }
-    }
     pdf: /_publication/file/curriculum_vitae.pdf
     code: https://github.com/MrGiovanni/ContinualLearning
 
@@ -110,7 +107,6 @@ main:
           publisher    = {{IEEE}},
           year         = {2024},
         }
-    }
     pdf: /_publication/file/curriculum_vitae.pdf
     code: https://github.com/MrGiovanni/ContinualLearning
     
@@ -136,7 +132,6 @@ main:
           publisher    = {{IEEE}},
           year         = {2024},
         } 
-    }
     pdf: /_publication/file/curriculum_vitae.pdf
     code: https://github.com/MrGiovanni/ContinualLearning
 
