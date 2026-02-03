@@ -27,7 +27,7 @@ main:
     
   - title: "Img2CAD: Conditioned 3D CAD Model Generation from Single Image with Structured Visual Geometry"
     venue: "TII"
-    image: /_publication/image/TII.png 
+    image: /publication/image/TII.png 
     authors: Tianrun Chen*, Chunan Yu*, Yuanqi Hu, Jing Li, Tao Xu, Runlong Cao, Lanyun Zhu, Ying Zang, Yong Zhang, Zejian Li, Lingyun Sun
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
     abstract: >
@@ -50,12 +50,12 @@ main:
         journal      = {{IEEE} Trans. Ind. Informatics},
         year         = {2025}
         }
-    pdf: /_publication/file/curriculum_vitae.pdf
+    pdf: /publication/file/curriculum_vitae.pdf
     code: https://github.com/MrGiovanni/ContinualLearning
   
   - title: "From Air to Wear: Personalized 3D Digital Fashion with AR/VR Immersive 3D Sketching"
     venue: "TVCG"
-    image: /_publication/image/TVCG2.png 
+    image: /publication/image/TVCG2.png 
     authors: Ying Zang, Yuanqi Hu, Xinyu Chen, Suhui Wang, Yuxia Xu, Chunan Yu, Lanyun Zhu, Deyi Ji, Xin Xu, Tianrun Chen*
     conference: IEEE Trans. Vis. Comput. Graph (2025).
     abstract: >
