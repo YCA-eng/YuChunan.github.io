@@ -1,9 +1,9 @@
 main:
-  - title: "From Sketch to Reality: Enabling High-Quality, Cross-Category 3D Model Generation from Free-Hand Sketches with Minimal Data" 
+  - title: "From Sketch to Reality: Enabling High-Quality, Cross-Category 3D Model Generation from Free-Hand Sketches with Minimal Data." 
     venue: "TVCG"
     image: /_publication/image/teaser_example.png
     authors: Ying Zang, Chunan Yu, Jiahao Zhang, Jing Li,Shengyuan Zhang, Lanyun Zhu, Chaotao Ding,Renjun Xu,Tianrun Chen
-    conference: {IEEE} Trans. Vis. Comput. Graph (2026).
+    conference: (IEEE) Trans. Vis. Comput. Graph (2026).
     abstract: >
       This paper presents a novel approach for generating high-quality, cross-category 3D models from free-hand sketches with limited training data. We propose the first semi-supervised learning method to our knowledge for sketch-to-3D model conversion. Innovatively, we design a coarse-to-fine pipeline to perform the semi-supervised learning in the coarse stage and train a diffusion-based refiner to get a high-resolution 3D model. We designed a sketch-augmentation method for semi-supervised learning and integrated priors such as CLIP loss, shape prototypes, and adversarial loss to help generate high-quality results even with abstract and imprecise sketches. We also introduce an innovative procedural 3D generation method based on CAD code, which helps pre-train part of the network before fine-tuning with limited real data. Our approach, coupled with a specifically designed curriculum learning, allows us to generate high-quality 3D models across multiple categories with as few as 300 sketch-3D model pairs, marking a significant advancement over previous single-category approaches. In addition, we introduce the KO2D dataset, the largest collection of hand-drawn sketch-3D pairs to support further research in this area. As sketches are a far more intuitive and detailed way for users to express their unique ideas, we believe that this paper can move us closer to democratizing 3D content creation, enabling anyone to transform their ideas into 3D models effortlessly
     bibtex: |
@@ -57,7 +57,7 @@ main:
     venue: "TVCG"
     image: /_publication/image/teaser_example_2.png 
     authors: Ying Zang, Yuanqi Hu, Xinyu Chen, Suhui Wang, Yuxia Xu, Chunan Yu, Lanyun Zhu, Deyi Ji, Xin Xu, Tianrun Chen*
-    conference: {IEEE} Trans. Vis. Comput. Graph (2025).
+    conference: (IEEE) Trans. Vis. Comput. Graph (2025).
     abstract: >
           In the era of immersive consumer electronics, such as AR/VR headsets and smart devices, people increasingly seek ways to express their identity through virtual fashion. However, existing 3D garment design tools remain inaccessible to everyday users due to steep technical barriers and limited data. In this work, we introduce a 3D sketch-driven 3D garment generation framework that empowers ordinary users — even those without design experience — to create high-quality digital clothing through simple 3D sketches in AR/VR environments. By combining a conditional diffusion model, a sketch encoder trained in a shared latent space, and an adaptive curriculum learning strategy, our system interprets imprecise, free-hand input and produces realistic, personalized garments. To address the scarcity of training data, we also introduce KO3DClothes, a new dataset of paired 3D garments and user-created sketches. Extensive experiments and user studies confirm that our method significantly outperforms existing baselines in both fidelity and usability, demonstrating its promise for democratized fashion design on next-generation consumer platforms.
     bibtex: |
@@ -114,7 +114,7 @@ main:
     venue: "ICASSP"
     image: /_publication/image/teaser_example_2.png 
     authors: Yong Zhang, Chunan Yu, Chenglong Fu, Yuanqi Hu, Ying Zang
-    conference: {IEEE} Trans. Vis. Comput. Graph (2025).
+    conference: (IEEE) Trans. Vis. Comput. Graph (2025).
     abstract: >
            Accurately distinguishing between action-related features and nonaction-related features is crucial in spatio-temporal action detection tasks. Additionally, the calibration and fusion of information across different modalities remain challenging. This paper proposes a novel Motion Sense and Semantic Correction framework (MS-SC) to address these issues. The MS-SC framework achieves accurate detection by fusing features from images (spatial dimension) and videos (spatio-temporal dimension). A Motion Sense Module (MSM) is proposed to significantly increase the feature distance between action and non-action features in the semantic space, enhancing feature discriminability. Considering the complementary nature of information across different modalities, an efficient Semantic Correction Fusion Module (SFM) is introduced to facilitate interaction between features of distinct modalities and maximize their complementary information integration. To evaluate the performance of the MSSC framework, extensive experiments were conducted on two challenging datasets, UCF101-24 and AVA. The results demonstrate the effectiveness of the MS-SC framework in handling spatio-temporal action detection tasks.
     bibtex: |
