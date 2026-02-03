@@ -1,35 +1,142 @@
 main:
-  - title: "Deep Learning for Image Super-Resolution"
-    venue: "CVPR"
+  - title: "From Sketch to Reality: Enabling High-Quality, Cross-Category 3D Model Generation from Free-Hand Sketches with Minimal Data"
+    venue: "TVCG"
     image: /_publication/image/teaser_example.png
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan L. Yuille, Yaoyao Liu*, Zongwei Zhou⋆
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention (MICCAI), 2023.
+    authors: Ying Zang, Chunan Yu, Jiahao Zhang, Jing Li,Shengyuan Zhang, Lanyun Zhu, Chaotao Ding,Renjun Xu,Tianrun Chen
+    conference: {IEEE} Trans. Vis. Comput. Graph (2026).
     abstract: >
-      The ability to dynamically extend a model to new data and classes is critical for multiple organ and tumor segmentation. However, due to privacy regulations, accessing previous data and annotations can be problematic in the medical domain. This poses a significant barrier to preserving the high segmentation accuracy of the old classes when learning from new classes because of the catastrophic forgetting problem. In this paper, we first empirically demonstrate that simply using high-quality pseudo labels can fairly mitigate this problem in the setting of organ segmentation. Furthermore, we put forward an innovative architecture designed specifically for continuous organ and tumor segmentation, which incurs minimal computational overhead.
+      This paper presents a novel approach for generating high-quality, cross-category 3D models from free-hand sketches with limited training data. We propose the first semi-supervised learning method to our knowledge for sketch-to-3D model conversion. Innovatively, we design a coarse-to-fine pipeline to perform the semi-supervised learning in the coarse stage and train a diffusion-based refiner to get a high-resolution 3D model. We designed a sketch-augmentation method for semi-supervised learning and integrated priors such as CLIP loss, shape prototypes, and adversarial loss to help generate high-quality results even with abstract and imprecise sketches. We also introduce an innovative procedural 3D generation method based on CAD code, which helps pre-train part of the network before fine-tuning with limited real data. Our approach, coupled with a specifically designed curriculum learning, allows us to generate high-quality 3D models across multiple categories with as few as 300 sketch-3D model pairs, marking a significant advancement over previous single-category approaches. In addition, we introduce the KO2D dataset, the largest collection of hand-drawn sketch-3D pairs to support further research in this area. As sketches are a far more intuitive and detailed way for users to express their unique ideas, we believe that this paper can move us closer to democratizing 3D content creation, enabling anyone to transform their ideas into 3D models effortlessly
     bibtex: |
-      @inproceedings{doe2025superres,
-        title={Deep Learning for Image Super-Resolution},
-        author={Doe, Jane and Smith, John},
-        booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-        year={2025}
+          @article{DBLP:journals/tvcg/ZangYZLZZDXC26,
+            author       = {Ying Zang and
+                            Chunan Yu and
+                            Jiahao Zhang and
+                            Jing Li and
+                            Shengyuan Zhang and
+                            Lanyun Zhu and
+                            Chaotao Ding and
+                            Renjun Xu and
+                            Tianrun Chen},
+            title        = {From Sketch to Reality: Enabling High-Quality, Cross-Category 3D Model Generation from 
+                            Free-Hand Sketches with Minimal Data},
+            journal      = {{IEEE} Trans. Vis. Comput. Graph.},
+            year         = {2026},
+          }
       }
     pdf: /_publication/file/curriculum_vitae.pdf
     code: https://github.com/MrGiovanni/ContinualLearning
     
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    venue: "CVPR"
+  - title: "Img2CAD: Conditioned 3D CAD Model Generation from Single Image with Structured Visual Geometry"
+    venue: "TII"
     image: /_publication/image/teaser_example_2.png 
-    authors: Yaoyao Liu*, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
+    authors: Tianrun Chen*, Chunan Yu*, Yuanqi Hu, Jing Li, Tao Xu, Runlong Cao, Lanyun Zhu, Ying Zang, Yong Zhang, Zejian Li, Lingyun Sun
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
     abstract: >
-      Mnemonics Training presents a novel approach to multi-class incremental learning that effectively prevents catastrophic forgetting. This method enables neural networks to continuously learn new classes while maintaining performance on previously learned classes.
+          In this paper, we propose Img2CAD, the first approach to our knowledge that uses 2D image inputs to generate CAD models with editable parameters. Unlike existing AI methods for 3D model generation using text or image inputs often rely on mesh-based representations, which are incompatible with CAD tools and lack editability and fine control, Img2CAD enables seamless integration between AI-based 3D reconstruction and CAD software. We have identified an innovative intermediate representation called Structured Visual Geometry (SVG), characterized by vectorized wireframes extracted from objects. This representation significantly enhances the performance of generating conditioned CAD models. Additionally, we introduce two new datasets to further support research in this area: ABC-mono, the largest known dataset comprising over 200,000 3D CAD models with rendered images, and KOCAD, the first dataset featuring real-world captured objects alongside their ground truth CAD models, supporting further research in conditioned CAD model generation.
     bibtex: |
-      @inproceedings{liu2020mnemonics,
-        author={Liu, Yaoyao and Su, Yuting and Liu, An{-}An and Schiele, Bernt and Sun, Qianru},
-        title={Mnemonics Training: Multi-Class Incremental Learning without Forgetting},
-        booktitle={The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-        pages={12245--12254},
-        year={2020}
-      }
+      @article{DBLP:journals/tii/ChenYHLXCZZZLS25,
+        author       = {Tianrun Chen and
+                        Chunan Yu and
+                        Yuanqi Hu and
+                        Jing Li and
+                        Tao Xu and
+                        Runlong Cao and
+                        Lanyun Zhu and
+                        Ying Zang and
+                        Yong Zhang and
+                        Zejian Li and
+                        Linyun Sun},
+        title       = {Img2CAD: Conditioned 3D {CAD} Model Generation from Single Image with
+                        Structured Visual Geometry},
+        journal      = {{IEEE} Trans. Ind. Informatics},
+        year         = {2025}
+        }
+    }
     pdf: /_publication/file/curriculum_vitae.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    code: https://github.com/MrGiovanni/ContinualLearning
+  
+  - title: "From Air to Wear: Personalized 3D Digital Fashion with AR/VR Immersive 3D Sketching"
+    venue: "TVCG"
+    image: /_publication/image/teaser_example_2.png 
+    authors: Ying Zang, Yuanqi Hu, Xinyu Chen, Suhui Wang, Yuxia Xu, Chunan Yu, Lanyun Zhu, Deyi Ji, Xin Xu, Tianrun Chen*
+    conference: {IEEE} Trans. Vis. Comput. Graph (2025).
+    abstract: >
+          In the era of immersive consumer electronics, such as AR/VR headsets and smart devices, people increasingly seek ways to express their identity through virtual fashion. However, existing 3D garment design tools remain inaccessible to everyday users due to steep technical barriers and limited data. In this work, we introduce a 3D sketch-driven 3D garment generation framework that empowers ordinary users — even those without design experience — to create high-quality digital clothing through simple 3D sketches in AR/VR environments. By combining a conditional diffusion model, a sketch encoder trained in a shared latent space, and an adaptive curriculum learning strategy, our system interprets imprecise, free-hand input and produces realistic, personalized garments. To address the scarcity of training data, we also introduce KO3DClothes, a new dataset of paired 3D garments and user-created sketches. Extensive experiments and user studies confirm that our method significantly outperforms existing baselines in both fidelity and usability, demonstrating its promise for democratized fashion design on next-generation consumer platforms.
+    bibtex: |
+      @article{DBLP:journals/tvcg/ZangHCWXYZJXC25,
+        author       = {Ying Zang and
+                        Yuanqi Hu and
+                        Xinyu Chen and
+                        Suhui Wang and
+                        Yuxia Xu and
+                        Chunan Yu and
+                        Lanyun Zhu and
+                        Deyi Ji and
+                        Xin Xu and
+                        Tianrun Chen},
+        title        = {From Air to Wear: Personalized 3D Digital Fashion With {AR/VR} Immersive
+                        3D Sketching},
+        journal      = {{IEEE} Trans. Vis. Comput. Graph.},
+        volume       = {31},
+        number       = {12},
+        pages        = {10227--10236},
+        year         = {2025},
+      }
+    }
+    pdf: /_publication/file/curriculum_vitae.pdf
+    code: https://github.com/MrGiovanni/ContinualLearning
+
+  - title: "Rapid 3d model generation with intuitive 3d input"
+    venue: "CVPR"
+    image: /_publication/image/teaser_example_2.png 
+    authors: Tianrun Chen, Chaotao Ding, Shangzhan Zhang, Chunan Yu, Ying Zang, Zejian L#i, Sida Peng, Lingyun Sun*
+    conference: Conference on Computer Vision and Pattern Recognition,{CVPR} 2024.
+    abstract: >
+           With the emergence of AR/VR, 3D models are in tremendous demand. However, conventional 3D modeling with Computer-Aided Design software requires much expertise and is difficult for novice users. We find that AR/VR devices, in addition to serving as effective display mediums, can offer a promising potential as an intuitive 3D model creation tool, especially with the assistance of AI generative models. Here, we propose Deep3DVRSketch, the first 3D model generation network that inputs 3D VR sketches from novice users and generates highly consistent 3D models in multiple categories within seconds, irrespective of the users’ drawing abilities. We also contribute KO3D+, the largest 3D sketch-shape dataset. Our method pre-trains a conditional diffusion model on quality 3D data, then finetunes an encoder to map 3D sketches onto the generator’s manifold using an adaptive curriculum strategy for limited ground truths. In our experiment, our approach achieves state-of-the-art performance in both model quality and fidelity with real-world input from novice users, and users can even draw and obtain very detailed geometric structures. In our user study, users were able to complete the 3D modeling tasks over 10 times faster using our approach compared to conventional CAD software tools. We believe that our Deep3DVRSketch and KO3D+ dataset can offer a promising solution for future 3D modeling in metaverse era.
+    bibtex: |
+        @inproceedings{DBLP:conf/cvpr/ChenDZYZLPS24,
+          author       = {Tianrun Chen and
+                          Chaotao Ding and
+                          Shangzhan Zhang and
+                          Chunan Yu and
+                          Ying Zang and
+                          Zejian Li and
+                          Sida Peng and
+                          Lingyun Sun},
+          title        = {Rapid 3D Model Generation with Intuitive 3D Input},
+          booktitle    = {{IEEE/CVF} Conference on Computer Vision and Pattern Recognition,
+                          {CVPR} 2024, Seattle, WA, USA, June 16-22, 2024},
+          pages        = {12554--12564},
+          publisher    = {{IEEE}},
+          year         = {2024},
+        }
+    }
+    pdf: /_publication/file/curriculum_vitae.pdf
+    code: https://github.com/MrGiovanni/ContinualLearning
+    
+  - title: "Spatio-Temporal Action Detection with a Motion Sense and Semantic Correction Framework"
+    venue: "TVCG"
+    image: /_publication/image/teaser_example_2.png 
+    authors: Yong Zhang, Chunan Yu, Chenglong Fu, Yuanqi Hu, Ying Zang
+    conference: {IEEE} Trans. Vis. Comput. Graph (2025).
+    abstract: >
+           Accurately distinguishing between action-related features and nonaction-related features is crucial in spatio-temporal action detection tasks. Additionally, the calibration and fusion of information across different modalities remain challenging. This paper proposes a novel Motion Sense and Semantic Correction framework (MS-SC) to address these issues. The MS-SC framework achieves accurate detection by fusing features from images (spatial dimension) and videos (spatio-temporal dimension). A Motion Sense Module (MSM) is proposed to significantly increase the feature distance between action and non-action features in the semantic space, enhancing feature discriminability. Considering the complementary nature of information across different modalities, an efficient Semantic Correction Fusion Module (SFM) is introduced to facilitate interaction between features of distinct modalities and maximize their complementary information integration. To evaluate the performance of the MSSC framework, extensive experiments were conducted on two challenging datasets, UCF101-24 and AVA. The results demonstrate the effectiveness of the MS-SC framework in handling spatio-temporal action detection tasks.
+    bibtex: |
+        @inproceedings{DBLP:conf/icassp/ZhangY0HZ24,
+          author       = {Yong Zhang and
+                          Chunan Yu and
+                          Chenglong Fu and
+                          Yuanqi Hu and
+                          Ying Zang},
+          title        = {Spatio-Temporal Action Detection with a Motion Sense and Semantic
+                          Correction Framework},
+          booktitle    = {{IEEE} International Conference on Acoustics, Speech and Signal Processing,
+                          {ICASSP} 2024, Seoul, Republic of Korea, April 14-19, 2024},
+          pages        = {3645--3649},
+          publisher    = {{IEEE}},
+          year         = {2024},
+        } 
+    }
+    pdf: /_publication/file/curriculum_vitae.pdf
+    code: https://github.com/MrGiovanni/ContinualLearning
+
