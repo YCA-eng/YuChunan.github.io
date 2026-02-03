@@ -1,0 +1,176 @@
+---
+layout: default
+title: About
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me</title>
+
+  <!-- 图标库 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #000;
+      background-color: white;
+    }
+
+    /* 顶部区域 */
+    .top-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px 10px;
+      max-width: 1000px;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.85);
+      border-radius: 10px;
+    }
+
+    .top-bar .back-button {
+      font-size: 16px;
+      text-decoration: none;
+      color: #0056b3;
+      font-weight: bold;
+    }
+
+    .top-bar h1 {
+      margin: 0 auto;
+      font-size: 28px;
+      text-align: center;
+      flex: 1;
+    }
+
+    .page-container {
+      display: flex;
+      justify-content: center;
+      padding: 0 20px 60px;
+    }
+
+    .wrapper {
+/*       用图片当背景 */
+      background: url('{{ site.background.site }}') no-repeat center center;
+/*       用纯色当背景 */
+/*       background-color: rgba(230, 240, 255, 0.95); */
+      max-width: 1000px;
+      width: 100%;
+      border-radius: 10px;
+      padding: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      background-repeat: no-repeat;   /* 防止重复 */
+      background-size: 1200px 1000px; /*根据内容和图片手动调整背景大小，前宽后高*/
+      background-position: center;   /* 居中 */ 
+
+    }
+
+    .left {
+      flex: 1 1 250px;
+      text-align: center;
+    }
+
+    .left img {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .social-icons a {
+      margin: 0 5px;
+      font-size: 22px;
+      color: #333;
+      text-decoration: none;
+    }
+
+    .right {
+      flex: 2 1 500px;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin-top: 20px;
+    }
+
+    p {
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin: 8px 0;
+    }
+
+    a {
+      color: #0056b3;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .wrapper {
+        flex-direction: column;
+      }
+
+      .top-bar {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .top-bar h1 {
+        margin: 10px 0 0;
+        text-align: left;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 顶部返回按钮 + 标题 -->
+  <div class="top-bar">
+    <a href="javascript:history.back()" class="back-button"><i class="fas fa-arrow-left"></i> Back</a>
+    <h1>About Me</h1>
+    <div style="width: 60px;"></div> <!-- 占位符保持平衡 -->
+  </div>
+
+  <!-- 中间蓝色主体部分 -->
+  <div class="page-container">
+    <div class="wrapper">
+      <div class="left">
+        <img src="/assets/img/avatar.png" alt="Profile Photo" />
+        <div class="social-icons">
+          <a href="#"><i class="fas fa-file-alt"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Yu-Xinda"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fas fa-envelope"></i></a>
+          <a href="#"><i class="ai ai-zhihu"></i></a>
+        </div>
+      </div>
+
+      <div class="right">
+        <h2>{{ site.data.about.name }}</h2>
+        <h3>{{ site.data.about.email }}</h3>
+
+        <p>{{ site.data.about.paragraph1 }}</p>
+<!--         markdownify 用于将 YAML 中的 Markdown 格式（如 *斜体*、[链接](url)）转换成 HTML。 -->
+        <p>{{ site.data.about.paragraph2 | markdownify }}</p>
+        
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
