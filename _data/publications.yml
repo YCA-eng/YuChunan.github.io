@@ -1,7 +1,7 @@
 main:
   - title: "From Sketch to Reality: Enabling High-Quality, Cross-Category 3D Model Generation from Free-Hand Sketches with Minimal Data." 
     venue: "TVCG"
-    image: /YuChunan.github.io/_publication/image/TVCG1.png
+    image: /publication/image/TVCG1.png
     authors: Ying Zang, Chunan Yu, Jiahao Zhang, Jing Li,Shengyuan Zhang, Lanyun Zhu, Chaotao Ding,Renjun Xu,Tianrun Chen
     conference: IEEE Trans. Vis. Comput. Graph (2026).
     abstract: >
