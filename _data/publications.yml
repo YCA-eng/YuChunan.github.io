@@ -22,7 +22,7 @@ main:
             journal      = {{IEEE} Trans. Vis. Comput. Graph.},
             year         = {2026},
           }
-    pdf: /_publication/file/curriculum_vitae.pdf
+    pdf: https://github.com/YCA-eng/YuChunan.github.io/_publication/image/TVCG1.png
     code: https://github.com/MrGiovanni/ContinualLearning
     
   - title: "Img2CAD: Conditioned 3D CAD Model Generation from Single Image with Structured Visual Geometry"
