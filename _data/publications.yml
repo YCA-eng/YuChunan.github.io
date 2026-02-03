@@ -115,7 +115,7 @@ main:
     code: https://github.com/MrGiovanni/ContinualLearning
     
   - title: "Spatio-Temporal Action Detection with a Motion Sense and Semantic Correction Framework"
-    venue: "TVCG"
+    venue: "ICASSP"
     image: /_publication/image/teaser_example_2.png 
     authors: Yong Zhang, Chunan Yu, Chenglong Fu, Yuanqi Hu, Ying Zang
     conference: {IEEE} Trans. Vis. Comput. Graph (2025).
