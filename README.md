@@ -1,7 +1,7 @@
 # README
 
 
-欢迎访问我的GitHub Pages 个人网站项目 \[[在线演示]([https://yu-xinda.github.io/](https://yca-eng.github.io/YuChunan.github.io/))\] 
+欢迎访问我的GitHub Pages 个人网站项目 \[[在线演示]([https://yu-xinda.github.io/](https://yca-eng.github.io/YuChunan.github.io/)\] 
 
 *这个项目的源代包含的源代码. 基于 GitHub 官方主题之一 [minimal](https://github.com/orderedlist/minimal) 创建以及在该项目的基础上进行修改和客制化*
 <br>
