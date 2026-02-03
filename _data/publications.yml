@@ -23,7 +23,6 @@ main:
             year         = {2026},
           }
     pdf: https://github.com/YCA-eng/YuChunan.github.io/_publication/image/TVCG1.png
-    code: https://github.com/MrGiovanni/ContinualLearning
     
   - title: "Img2CAD: Conditioned 3D CAD Model Generation from Single Image with Structured Visual Geometry"
     venue: "TII"
@@ -51,7 +50,6 @@ main:
         year         = {2025}
         }
     pdf: /publication/file/curriculum_vitae.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
   
   - title: "From Air to Wear: Personalized 3D Digital Fashion with AR/VR Immersive 3D Sketching"
     venue: "TVCG"
@@ -81,7 +79,6 @@ main:
         year         = {2025},
       }
     pdf: ./publication/file/curriculum_vitae.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
     
   - title: "Reasoning3D - Grounding and Reasoning in 3D: Fine-Grained Zero-Shot Open-Vocabulary 3D Reasoning Part Segmentation via Large Vision-Language Models"
     venue: "ICLR Workshop"
@@ -109,7 +106,6 @@ main:
             year         = {2024},
           }
     pdf: /_publication/file/curriculum_vitae.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
 
   - title: "Rapid 3d model generation with intuitive 3d input"
     venue: "CVPR"
@@ -136,7 +132,6 @@ main:
           year         = {2024},
         }
     pdf: /_publication/file/curriculum_vitae.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
     
   - title: "Spatio-Temporal Action Detection with a Motion Sense and Semantic Correction Framework"
     venue: "ICASSP"
@@ -161,5 +156,4 @@ main:
           year         = {2024},
         } 
     pdf: /_publication/file/curriculum_vitae.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
 
