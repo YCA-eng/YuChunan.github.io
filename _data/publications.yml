@@ -1,7 +1,7 @@
 main:
   - title: "From Sketch to Reality: Enabling High-Quality, Cross-Category 3D Model Generation from Free-Hand Sketches with Minimal Data." 
     venue: "TVCG"
-    image: /publication/image/TVCG1.png
+    image: ./publication/image/TVCG1.png
     authors: Ying Zang, Chunan Yu, Jiahao Zhang, Jing Li,Shengyuan Zhang, Lanyun Zhu, Chaotao Ding,Renjun Xu,Tianrun Chen
     conference: IEEE Trans. Vis. Comput. Graph (2026).
     abstract: >
@@ -27,7 +27,7 @@ main:
     
   - title: "Img2CAD: Conditioned 3D CAD Model Generation from Single Image with Structured Visual Geometry"
     venue: "TII"
-    image: /publication/image/TII.png 
+    image: ./publication/image/TII.png 
     authors: Tianrun Chen*, Chunan Yu*, Yuanqi Hu, Jing Li, Tao Xu, Runlong Cao, Lanyun Zhu, Ying Zang, Yong Zhang, Zejian Li, Lingyun Sun
     conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
     abstract: >
@@ -55,7 +55,7 @@ main:
   
   - title: "From Air to Wear: Personalized 3D Digital Fashion with AR/VR Immersive 3D Sketching"
     venue: "TVCG"
-    image: /publication/image/TVCG2.png 
+    image: ./publication/image/TVCG2.png 
     authors: Ying Zang, Yuanqi Hu, Xinyu Chen, Suhui Wang, Yuxia Xu, Chunan Yu, Lanyun Zhu, Deyi Ji, Xin Xu, Tianrun Chen*
     conference: IEEE Trans. Vis. Comput. Graph (2025).
     abstract: >
