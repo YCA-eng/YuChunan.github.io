@@ -12,7 +12,7 @@
   <!-- 左侧图片区域 -->
   <div class="col-sm-3 abbr" style="flex: 0 0 25%; padding-right: 20px; display: flex; align-items: flex-start; justify-content: center; height: 140px; position: relative;">
     {% if link.image %}
-    <img src="{{ link.image }}" style="max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 4px;">
+   <img src="{{ link.image }}" style="display: block; margin: 0 auto; max-height: 100%; max-width: 100%; object-fit: contain; border-radius: 4px;">
     {% if link.venue %}
     <div class="venue-tag" style="position: absolute; top: 0; left: 0; background-color: #0056b3; color: white; padding: 4px 8px; font-size: 12px; font-weight: 600; border-radius: 4px 0 4px 0; z-index: 10;">
       {{ link.venue }}
@@ -23,7 +23,7 @@
   
   <!-- 右侧内容区域 -->
   <div class="col-sm-9" style="flex: 1;">
-    <div class="title" style="font-weight: 600; font-size: 19px; color: #000000;font-family: 'Times New Roman', Times, serif;">
+    <div class="title" style="font-weight: bold; font-size: 18px; color: #000000; font-family: 'Times New Roman', Times, serif;">
       {% if link.pdf %}
       <a href="{{ link.pdf }}" style="color: #3498db; text-decoration: none;">{{ link.title }}</a>
       {% else %}
