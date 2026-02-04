@@ -15,19 +15,19 @@
 #   highlight: ""
 
 - time: 2026.01.29
-  description: "One paper is accepted in <b>IEEE TVCG</b>."
+  description: "One paper is accepted in <b><i>IEEE TVCG</i></b>."
 - time: 2025.07.26
-  description: "One paper is accepted in <b>IEEE TVCG</b>."
+  description: "One paper is accepted in <b><i>IEEE TVCG</i></b>."
 - time: 2025.06.23
-  description: "One paper is accepted in <b>IEEE TII</b>."
+  description: "One paper is accepted in <b><i>IEEE TII</i></b>."
 - time: 2025.05.10
-  description: "Awarded <b>Zhejiang Province Outstanding Graduate</b>."
+  description: "Awarded <b><i>Zhejiang Province Outstanding Graduate</i></b>."
 - time: 2025.03.05
-  description: "One paper is accepted in <b>Reasoning and Planning for LLMs @ ICLR2025</b>."
+  description: "One paper is accepted in <b><i>Reasoning and Planning for LLMs @ ICLR2025</i></b>."
 - time: 2024.12.10
-  description: "Received the <b>National Scholarship</b> for Master's Students."
+  description: "Received the <b><i>National Scholarship</i></b> for Master's Students."
 - time: 2024.02.27
-  description: "One paper is accepted in <b>CVPR (Highlight)</b>."
+  description: "One paper is accepted in <b><i>CVPR (Highlight)</i></b>."
 - time: 2023.12.14
-  description: "One paper is accepted in <b>ICASSP</b>."
+  description: "One paper is accepted in <b><i>ICASSP</i></b>."
 
