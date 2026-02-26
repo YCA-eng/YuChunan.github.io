@@ -48,6 +48,7 @@ main:
         journal      = {{IEEE} Trans. Ind. Informatics},
         year         = {2025}
         }
+    arxiv: "https://arxiv.org/abs/2410.03417"
   
   - title: "From Air to Wear: Personalized 3D Digital Fashion with AR/VR Immersive 3D Sketching"
     venue: "TVCG"
@@ -76,6 +77,7 @@ main:
         pages        = {10227--10236},
         year         = {2025},
       }
+    arxiv: "https://arxiv.org/abs/2505.09998"
     
   - title: "Reasoning3D - Grounding and Reasoning in 3D: Fine-Grained Zero-Shot Open-Vocabulary 3D Reasoning Part Segmentation via Large Vision-Language Models"
     venue: "ICLR Workshop"
@@ -102,6 +104,7 @@ main:
             booktitle      = {ICLR 2025 Workshop LLM Reason and Plan},
             year         = {2024},
           }
+    arxiv: "https://arxiv.org/abs/2405.19326"
 
   - title: "Rapid 3d model generation with intuitive 3d input"
     venue: "CVPR"
