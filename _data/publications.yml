@@ -130,7 +130,7 @@ main:
           publisher    = {{IEEE}},
           year         = {2024},
         }
-    
+    pdf: "https://openaccess.thecvf.com/content/CVPR2024/html/Chen_Rapid_3D_Model_Generation_with_Intuitive_3D_Input_CVPR_2024_paper.html"
   - title: "Spatio-Temporal Action Detection with a Motion Sense and Semantic Correction Framework"
     venue: "ICASSP"
     image: ./publication/image/ICASSP2024.png 
@@ -153,3 +153,4 @@ main:
           publisher    = {{IEEE}},
           year         = {2024},
         }
+    pdf: "https://ieeexplore.ieee.org/document/10447413/"
