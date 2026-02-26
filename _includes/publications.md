@@ -23,7 +23,7 @@
   
   <!-- 右侧内容区域 -->
   <div class="col-sm-9" style="flex: 1;">
-    <div class="title" style="font-weight: bold; font-size: 18px; color: #000000; font-family: 'Times New Roman', Times, serif;">
+    <div class="title" style="font-weight: bold; font-size: 18px; color: #007BFF; font-family: 'Times New Roman', Times, serif; cursor: pointer;">
       {% if link.pdf %}
       <a href="{{ link.pdf }}" style="color: #3498db; text-decoration: none;">{{ link.title }}</a>
       {% else %}
@@ -46,7 +46,7 @@
     </button>
     {% endif %}
     {% if link.pdf %}
-    <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 14px; padding: 3px 8px; background-color: #0056b3; color: white; border: none; border-radius: 3px; text-decoration: none;">PDF</a>
+    <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 14px; padding: 3px 8px; background-color: #0056b3; color: white; border: none; border-radius: 3px; text-decoration: none;">arxiv</a>
     {% endif %}
     {% if link.code %}
     <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 14px; padding: 3px 8px; background-color: #0056b3; color: white; border: none; border-radius: 3px; text-decoration: none;">GitHub</a>
