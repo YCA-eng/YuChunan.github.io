@@ -46,7 +46,7 @@
     </button>
     {% endif %}
     {% if link.pdf %}
-    <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 14px; padding: 3px 8px; background-color: #0056b3; color: white; border: none; border-radius: 3px; text-decoration: none;">arxiv</a>
+    <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 14px; padding: 3px 8px; background-color: #0056b3; color: white; border: none; border-radius: 3px; text-decoration: none;">Paper</a>
     {% endif %}
     {% if link.code %}
     <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size: 14px; padding: 3px 8px; background-color: #0056b3; color: white; border: none; border-radius: 3px; text-decoration: none;">GitHub</a>
